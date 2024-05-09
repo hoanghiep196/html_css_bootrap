@@ -1,0 +1,162 @@
+body{
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: auto;
+        }
+        .header {
+            display: block;
+            height: 80px;
+            width: 100%;
+            background-color: rgb(60, 122, 122);
+            padding-top: 13px;
+            
+        }
+        .header_title {
+            color: white;
+            font-size: large;
+            font-weight: bolder lighter;
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 15px;
+            
+
+        }
+        .navbar_nav1 {
+            
+            float: right;
+            margin-right: 15px;
+            margin-top: 10px;
+            
+        }
+        ul>li {
+            display: inherit;
+            text-decoration: none;
+        }
+        .nav-link:hover {
+            
+            background-color: grey;
+            background-size: cover;
+            border-radius: 12px;
+            text-transform: scale(1.1);
+            transition: 1s;
+        }
+        li:hover {
+            background-color: #fff;
+            background-size: cover;
+            border-radius: 12px;
+            text-transform: scale(1.1);
+            transition: 1s;
+            font-weight: bold;
+            
+        }
+        a:hover {
+            color: white;
+            font-size: large;
+            background-color: gray;
+            background-size: cover;
+            border-radius: 5px;
+            text-transform: scale(1.1);
+            transition: 1s;
+            opacity: 0.9;
+            
+        }
+        .nav-link {
+          transition: transform .1s;
+          font-weight: 200;
+          
+        }  
+        .columnFrame1 {
+            background-color: whitesmoke;
+            height: 1000px;
+        }
+        .columnFrame2 {
+            
+            height: 1000px;
+        }
+        #search_input {
+            width: 390px;
+            margin-top: 10px;
+            
+        }
+        #search_input_button {
+            color: gray;
+            padding: 5px 15px 5px 15px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            margin-left: 5px;
+        }
+        #search_input_button:hover {
+            
+            transform: scale(1.03);
+            box-shadow: 1px 3px 1px black;
+        }
+        .listitem1, .listitem2 {
+            display: inherit;
+            width: 100%;
+            margin-top: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-top: 1px solid gray;
+
+
+        }
+        .listitem1:hover, .listitem2:hover {
+            background-color: gray;
+            transition: 1s;
+        }
+        .title_column2 {
+            display: inherit;
+            color: gray;
+            padding-top: 15px;
+            padding-left: 10px;
+        }
+        .delimiter {
+            border-top: 1px solid gray;
+            margin-top: 22px;
+            
+        }
+        .form_column2 {
+            display: block;
+            background-color: whitesmoke;
+            padding: 0 0 10px 0;
+            margin: 10px 10px 0px 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        .form_column2_caption {
+            background-color: rgb(181, 209, 210);
+            width: 100%;
+            height: 45px;
+            font-weight: bold;
+            font-size: large;
+            padding: 10px 10px 0px 10px;
+
+        }
+        .form-label {
+            padding-left: 10px ;
+        }
+        #textarea_column2_1, #title_input_column02 {
+            margin-left: 10px;
+            width: 1450px;
+            
+        }
+        .table {
+            margin-left: 15px;
+            width: 1450px;
+            
+        }
+        td, th {
+            border: 1px solid gray;
+        }
+        
+        .table_column1 {
+            width: 10px;
+        }
+        .table_column2 {
+            width: 200px;
+        }
+        .table_column3 {
+            width: 300px;
+        }
+        .table_column4 {
+            width: 10px;
+        }
